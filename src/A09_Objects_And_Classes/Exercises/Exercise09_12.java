@@ -15,6 +15,21 @@ public class Exercise09_12 {
         double y3 = input.nextDouble();
         double x4 = input.nextDouble();
         double y4 = input.nextDouble();
+
+        double a = y1 - y2;
+        double b = -1 * (x1 - x2);
+        double c = y3 - y4;
+        double d = -1 * (x3 - x4);
+        double e =  (y1 - y2) * x1 - (x1 - x2) * y1;
+        double f =  (y3 - y4) * x3 - (x3 - x4) * y3;
+
+        LinearEquation1 equation = new LinearEquation1(a, b, c, d, e, f);
+
+        if (equation.isSolvable())
+            System.out.println("x is " + equation.getX() + " y is " + equation.getY());
+        else
+            System.out.println("The two lines are parallel");
+
     }
 
 }
