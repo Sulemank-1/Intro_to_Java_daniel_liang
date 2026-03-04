@@ -16,15 +16,15 @@ public class Circle {
 
     }
 
-    private double radius = 1;
+    private double radius;
     private static int numberOfObjects = 0;
 
     public Circle(){
-        numberOfObjects++;
+        this(1.0);
     }
 
-    public Circle(double newRadius){
-        radius = newRadius;
+    public Circle(double radius){
+        this.radius = radius;
         numberOfObjects++;
     }
 
