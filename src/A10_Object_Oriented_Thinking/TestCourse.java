@@ -1,0 +1,24 @@
+package A10_Object_Oriented_Thinking;
+
+public class TestCourse {
+    static void main() {
+        Course course1 = new Course("Data Structures");
+        Course course2 = new Course("Database System");
+
+        course1.addStudent("Peter Jones");
+        course1.addStudent("Kim Smith");
+        course1.addStudent("Anne Kennedy");
+
+        course2.addStudent("Peter Jones");
+        course2.addStudent("Steve Smith");
+
+        System.out.println("Number of students in course1: " + course1.getNumberOfStudents());
+        String[] students = course1.getStudents();
+        for (int i = 0; i < course1.getNumberOfStudents(); i++)
+            System.out.print(students[i] + ", ");
+
+        System.out.println("\nNumber of students in course2: " + course2.getNumberOfStudents());
+
+
+    }
+}
