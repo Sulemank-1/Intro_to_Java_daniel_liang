@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Exercise02_05 {
     public static void main(String[] args) {
-
-    }
-    public static void calculateTips(){
         Scanner input = new Scanner(System.in);
         double subtotal;
         double gratuityRate;

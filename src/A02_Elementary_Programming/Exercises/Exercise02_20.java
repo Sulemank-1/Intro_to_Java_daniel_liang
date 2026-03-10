@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise02_20 {
     public static void main(String[] args) {
-
-    }
-
-    public static void calculateInterest(){
         Scanner input = new Scanner(System.in);
 
         double balance;
@@ -21,8 +17,7 @@ public class Exercise02_20 {
         interest = balance * (annualInterestRate/1200);
 
         System.out.println("The interest is " + interest);
-
-
     }
+
 
 }

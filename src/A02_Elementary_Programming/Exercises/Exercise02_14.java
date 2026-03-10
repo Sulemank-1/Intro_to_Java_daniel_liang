@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise02_14 {
     public static void main(String[] args) {
-
-    }
-
-    public static void BMI(){
         Scanner input = new Scanner(System.in);
         double weight;
         double height;
@@ -24,10 +20,7 @@ public class Exercise02_14 {
         bmi = weight / Math.pow(height, 2);
 
         System.out.println("BMI is " + bmi);
-
-
-
-
     }
+
 
 }

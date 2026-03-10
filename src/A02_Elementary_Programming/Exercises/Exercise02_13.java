@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise02_13 {
     public static void main(String[] args) {
-
-    }
-
-    public static void compoundValue(){
         Scanner input = new Scanner(System.in);
         double amount;
         double monthlyInterestRate = 0.05 / 12;
@@ -23,9 +19,7 @@ public class Exercise02_13 {
         double month6 = (amount + month5) * (1 + monthlyInterestRate);
 
         System.out.println("After the sixth month, the account value is " + month6);
-
-
-
     }
+
 
 }

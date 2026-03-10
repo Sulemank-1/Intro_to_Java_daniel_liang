@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise02_08 {
     public static void main(String[] args) {
-
-    }
-
-    public static void showCurrentTime(){
         Scanner input = new Scanner(System.in);
         int offset;
 
@@ -33,5 +29,6 @@ public class Exercise02_08 {
 
         System.out.println("The current time is " + currentHour + ":" + currentMinute + ":" + currentSecond);
     }
+
 
 }

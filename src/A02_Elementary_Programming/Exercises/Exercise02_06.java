@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class Exercise02_06 {
     public static void main(String[] args) {
-
-    }
-    public static void sumDigitsInInteger(){
         Scanner input = new Scanner(System.in);
         int integer;
         int sum;
@@ -24,7 +21,6 @@ public class Exercise02_06 {
 
 
         System.out.println("The sum of the digits is " + sum);
-
     }
 
 }

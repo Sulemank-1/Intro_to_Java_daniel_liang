@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise02_09 {
     public static void main(String[] args) {
-
-    }
-
-    public static void averageAcceleration(){
         Scanner input = new Scanner(System.in);
         double initialVelocity;
         double finalVelocity;
@@ -22,7 +18,7 @@ public class Exercise02_09 {
         averageAcceleration = (finalVelocity - initialVelocity) / time;
 
         System.out.println("The average acceleration is " + averageAcceleration);
-
     }
+
 
 }

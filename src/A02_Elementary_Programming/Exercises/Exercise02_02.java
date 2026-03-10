@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise02_02 {
     public static void main(String[] args) {
-
-    }
-
-    public static void volumeOfCylinder(){
         Scanner input = new Scanner(System.in);
         final double PI = 3.14159;
         double radius;
@@ -25,6 +21,10 @@ public class Exercise02_02 {
 
         System.out.println("The area is " + area);
         System.out.println("The volume is " + volume);
+
     }
+
+
+
 
 }

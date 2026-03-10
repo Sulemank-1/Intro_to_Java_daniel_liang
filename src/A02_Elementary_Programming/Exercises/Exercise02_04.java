@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise02_04 {
     public static void main(String[] args) {
-
-    }
-
-    public static void poundsToKilogram(){
         Scanner input = new Scanner(System.in);
         double pounds;
         double kilograms;
@@ -19,5 +15,7 @@ public class Exercise02_04 {
 
         System.out.println(pounds + " pounds is " + kilograms + " kilograms");
     }
+
+
 
 }
