@@ -2,19 +2,26 @@ package A10_Object_Oriented_Thinking.Exercises;
 
 import A10_Object_Oriented_Thinking.StackOfIntegers;
 
+import java.util.Scanner;
+
 public class Exercise10_06 {
     public static void main(String[] args) {
-        int n = 120;
-        StackOfIntegers primeNumbers = new StackOfIntegers();
+        Scanner input = new Scanner(System.in);
 
-        for (int i = 2; i <= n; i++)
+        System.out.print("Enter a positive integer: ");
+        int number = input.nextInt();
+
+        StackOfIntegers stack = new StackOfIntegers();
+
+
+        for (int i = 2; i <= number; i++)
             if (isPrime(i))
-                primeNumbers.push(i);
+                stack.push(i);
 
 
 
-        while (!primeNumbers.empty())
-            System.out.print(primeNumbers.pop() + " ");
+        while (!stack.empty())
+            System.out.print(stack.pop() + " ");
     }
 
 
