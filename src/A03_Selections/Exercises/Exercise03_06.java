@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise03_06 {
     public static void main(String[] args) {
-
-    }
-
-    public static void computeAndInterpretBMI6(){
         Scanner input = new Scanner(System.in);
         final double KG_PER_POUND = 0.45359237;
         final double INCHES_PER_FOOT = 12;
@@ -40,5 +36,7 @@ public class Exercise03_06 {
         else
             System.out.println("Obese");
     }
+
+
 
 }

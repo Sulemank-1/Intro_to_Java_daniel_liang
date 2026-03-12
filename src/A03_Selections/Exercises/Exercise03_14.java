@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise03_14 {
     public static void main(String[] args) {
-
-    }
-
-    public static void headOrTails14(){
         Scanner input = new Scanner(System.in);
 
         int coin = (int) (Math.random() * 2);
@@ -20,5 +16,6 @@ public class Exercise03_14 {
         else
             System.out.println("Wrong guess");
     }
+
 
 }

@@ -3,7 +3,7 @@ package A03_Selections.Exercises;
 import java.util.Scanner;
 
 public class Exercise03_19 {
-    public static void perimeterOfTriangle19(){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double perimeter = 0.0;
         System.out.print("Enter the values of three edges: " );
@@ -18,7 +18,6 @@ public class Exercise03_19 {
         }
         else
             System.out.println("Invalid input.");
-
     }
 
 }

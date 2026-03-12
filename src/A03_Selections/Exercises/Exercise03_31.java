@@ -3,7 +3,7 @@ package A03_Selections.Exercises;
 import java.util.Scanner;
 
 public class Exercise03_31 {
-    public static void currencyExchange31(){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double currencyAmount = 0.0;
 

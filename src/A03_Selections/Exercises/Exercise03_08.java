@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise03_08 {
     public static void main(String[] args) {
-
-    }
-
-    public static void sortThreeIntegers8(){
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter three integers: ");
@@ -36,7 +32,7 @@ public class Exercise03_08 {
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
-
     }
+
 
 }

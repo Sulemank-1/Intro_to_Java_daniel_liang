@@ -4,17 +4,12 @@ import java.util.Scanner;
 
 public class Exercise03_07 {
     public static void main(String[] args) {
-
-    }
-
-    public static void computeChange7(){
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter an amount in double, for example 11.56: ");
         double amount = input.nextDouble();
 
         int remainingAmount = (int)(amount * 100);
-
 
 
         int numberOfOneDollars = remainingAmount / 100;
@@ -54,5 +49,6 @@ public class Exercise03_07 {
         if (numberOfPennies > 0)
             System.out.println(" " + numberOfPennies + ((numberOfPennies > 1) ? " pennies" : " penny"));
     }
+
 
 }

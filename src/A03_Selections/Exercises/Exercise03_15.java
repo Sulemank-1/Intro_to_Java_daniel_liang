@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise03_15 {
     public static void main(String[] args) {
-
-    }
-
-    public static void lottery15(){
         int lottery = (int)(100 + Math.random() * (1000 - 100));
 
         Scanner input = new Scanner(System.in);
@@ -46,5 +42,6 @@ public class Exercise03_15 {
         else
             System.out.println("Sorry, no match");
     }
+
 
 }

@@ -3,7 +3,8 @@ package A03_Selections.Exercises;
 import java.util.Scanner;
 
 public class Exercise03_17 {
-    public static void rockPaperScissors17(){
+
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         int computerGuess = (int)(Math.random() * 3);

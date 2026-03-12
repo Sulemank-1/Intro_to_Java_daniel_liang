@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise03_10 {
     public static void main(String[] args) {
-
-    }
-
-    public static void subtractionQuiz10() {
         Scanner input = new Scanner(System.in);
         int number1 = (int)(Math.random() * 10);
         int number2 = (int)(Math.random() * 10);
@@ -41,7 +37,7 @@ public class Exercise03_10 {
             System.out.println("Your answer in wrong.");
             System.out.println(number1 + " + " + number2 + " should be " + (number1 + number2));
         }
-
     }
+
 
 }

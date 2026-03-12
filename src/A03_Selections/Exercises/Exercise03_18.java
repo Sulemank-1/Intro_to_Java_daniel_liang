@@ -3,7 +3,7 @@ package A03_Selections.Exercises;
 import java.util.Scanner;
 
 public class Exercise03_18 {
-    public static void costOfShipping18(){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double shipping = 0.0;
 
@@ -26,7 +26,7 @@ public class Exercise03_18 {
 
             System.out.print("Shipping cost: " + shipping);
         }
-
     }
+
 
 }

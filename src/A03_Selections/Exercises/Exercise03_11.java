@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise03_11 {
     public static void main(String[] args) {
-
-    }
-
-    public static void numberOfDaysInMonth11(){
         Scanner input = new Scanner(System.in);
         String whichMonth = "";
         int days = 0;
@@ -74,5 +70,6 @@ public class Exercise03_11 {
 
         System.out.println(whichMonth + " " + year + " has " + days + " days");
     }
+
 
 }

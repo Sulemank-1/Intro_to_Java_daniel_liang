@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Exercise03_05 {
     public static void main(String[] args) {
-
-    }
-
-    public static void futureDates5(){
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter today’s day: ");
@@ -55,5 +51,8 @@ public class Exercise03_05 {
         System.out.println("Today is " +  today + " and the future day is " + elapsedDay);
 
     }
-
 }
+
+
+
+
