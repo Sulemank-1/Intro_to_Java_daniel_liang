@@ -21,7 +21,7 @@ public class Exercise11_12 {
 
     public static double sum(ArrayList<Double> list){
         double sum = 0.0;
-        for (Double i: list)
+        for (double i: list)
             sum+=i;
         return sum;
     }
