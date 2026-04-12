@@ -1,7 +1,7 @@
 package A10_Object_Oriented_Thinking;
 
 public class TestStackOfIntegers {
-    static void main() {
+    public static void main(String[] args) {
         StackOfIntegers stack = new StackOfIntegers();
 
         for (int i = 0; i < 10; i++) {

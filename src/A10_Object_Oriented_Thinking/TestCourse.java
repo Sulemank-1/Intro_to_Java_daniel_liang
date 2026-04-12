@@ -1,7 +1,7 @@
 package A10_Object_Oriented_Thinking;
 
 public class TestCourse {
-    static void main() {
+    public static void main(String[] args) {
         Course course1 = new Course("Data Structures");
         Course course2 = new Course("Database System");
 

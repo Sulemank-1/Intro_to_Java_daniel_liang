@@ -26,8 +26,7 @@ public class Exercise11_01 {
         System.out.println("Area: " + triangle.getArea());
         System.out.println("Perimeter: " + triangle.getPerimeter());
         System.out.println("Color: " + triangle.getColor());
-        System.out.println("Triangle is" + (triangle.isFilled() ? " " : " not ")
-                + "filled");
+        System.out.println("Triangle is" + (triangle.isFilled() ? " " : " not ") + "filled");
     }
 
 }

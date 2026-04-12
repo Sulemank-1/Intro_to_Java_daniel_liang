@@ -50,6 +50,4 @@ public class Circle extends GeometricObject {
         else
             return false;
     }
-
-
 }

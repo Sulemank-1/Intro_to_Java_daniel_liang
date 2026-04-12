@@ -1,7 +1,7 @@
 package A11_Inheritance_And_Polymorphism;
 
 public class DynamicBindingDemo {
-    static void main() {
+    public static void main(String[] args) {
         m(new GraduateStudent());
         m(new Student());
         m(new Personn());

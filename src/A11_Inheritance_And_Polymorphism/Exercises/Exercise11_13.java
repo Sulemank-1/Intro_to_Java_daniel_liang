@@ -23,7 +23,6 @@ public class Exercise11_13 {
 
 
     public static void removeDuplicates(ArrayList<Integer> list) {
-
          for (int i = 0; i < list.size(); i++) {
             int num = list.get(i);
             for (int j = list.size() - 1; j > i; j--)

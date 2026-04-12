@@ -23,7 +23,6 @@ public class Exercise11_10 {
 
 class MyStack extends ArrayList<Object> {
 
-
     public boolean isEmpty(){
         return super.isEmpty();
     }

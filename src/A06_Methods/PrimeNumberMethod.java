@@ -3,7 +3,6 @@ package A06_Methods;
 public class PrimeNumberMethod {
     public static void main(String[] args) {
 
-
         System.out.println("The first 50 prime numbers are");
         printPrimeNumbers(50);
 
