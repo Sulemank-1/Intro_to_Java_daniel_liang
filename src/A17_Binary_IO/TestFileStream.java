@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class TestFileStream {
-    static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         try (FileOutputStream output = new FileOutputStream("temp.dat")){
             for (int i = 0; i <= 10; i++) {
                 output.write(i);
