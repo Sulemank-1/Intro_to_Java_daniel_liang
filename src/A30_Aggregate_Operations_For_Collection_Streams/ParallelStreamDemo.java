@@ -11,13 +11,21 @@ public class ParallelStreamDemo {
         System.out.println("Number of processors: " + Runtime.getRuntime().availableProcessors());
 
         long startTime = System.currentTimeMillis();
-        int[] list1 = IntStream.of(list).filter(e -> e > 0).sorted().limit(5).toArray();
+        int[] list1 = IntStream.of(list)
+                        .filter(e -> e > 0)
+                        .sorted()
+                        .limit(5)
+                        .toArray();
         System.out.println(Arrays.toString(list1));
         long endTime = System.currentTimeMillis();
         System.out.println("Sequential execution time is " + (endTime - startTime) + " milliseconds");
 
         startTime = System.currentTimeMillis();
-        int[] list2 = IntStream.of(list).parallel().filter(e -> e > 0).sorted().limit(5).toArray();
+        int[] list2 = IntStream.of(list)
+                        .parallel()
+                        .filter(e -> e > 0)
+                        .sorted().limit(5)
+                        .toArray();
         System.out.println(Arrays.toString(list2));
         endTime = System.currentTimeMillis();
         System.out.println("Parallel  execution time is " + (endTime - startTime) + " milliseconds");
