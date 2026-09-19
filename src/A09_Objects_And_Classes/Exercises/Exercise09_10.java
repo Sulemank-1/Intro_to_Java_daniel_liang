@@ -30,10 +30,10 @@ class QuadraticEquation{
     private double c;
 
 
-    public QuadraticEquation(double newA, double newB, double newC){
-        a = newA;
-        b = newB;
-        c = newC;
+    public QuadraticEquation(double a, double b, double c){
+        this.a = a;
+        this.b = b;
+        this.c = c;
     }
 
     public double getA(){

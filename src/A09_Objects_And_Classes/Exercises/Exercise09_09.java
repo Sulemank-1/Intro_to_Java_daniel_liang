@@ -19,24 +19,18 @@ class RegularPolygon{
     private double y;
 
     public RegularPolygon(){
-        n = 3;
-        side = 1;
-        x = 0.0;
-        y = 0.0;
+        this(3, 1, 0.0, 0.0);
     }
 
-    public RegularPolygon(int newN, double newSide){
-        n = newN;
-        side = newSide;
-        x = 0.0;
-        y = 0.0;
+    public RegularPolygon(int n, double side){
+        this(n, side, 0.0, 0.0);
     }
 
-    public RegularPolygon(int newN, double newSide, double newX, double newY) {
-        n = newN;
-        side = newSide;
-        x = newX;
-        y = newY;
+    public RegularPolygon(int n, double side, double x, double y) {
+        this.n = n;
+        this.side = side;
+        this.x = x;
+        this.y = y;
     }
 
     public int getN(){
@@ -55,20 +49,20 @@ class RegularPolygon{
         return y;
     }
 
-    public void setN(int newN){
-        n = newN;
+    public void setN(int n){
+        this.n = n;
     }
 
-    public void setSide(double newSide){
-        side = newSide;
+    public void setSide(double side){
+        this.side = side;
     }
 
-    public void setX(double newX){
-        x = newX;
+    public void setX(double x){
+        this.x = x;
     }
 
-    public void setY(double newY){
-        y = newY;
+    public void setY(double y){
+        this.y = y;
     }
 
     public double getPerimeter(){
