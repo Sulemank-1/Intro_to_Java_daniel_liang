@@ -23,8 +23,7 @@ class Rectangle{
     double height;
 
     Rectangle(){
-        width = 1;
-        height = 1;
+        this(1, 1);
     }
 
     Rectangle(double newWidth, double newHeight){
