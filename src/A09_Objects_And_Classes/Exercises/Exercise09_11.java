@@ -32,13 +32,13 @@ class LinearEquation{
     private double e;
     private double f;
 
-    public LinearEquation(double newA, double newB, double newC, double newD, double newE, double newF){
-        a = newA;
-        b = newB;
-        c = newC;
-        d = newD;
-        e = newE;
-        f = newF;
+    public LinearEquation(double a, double b, double c, double d, double e, double f){
+        this.a = a;
+        this.b = b;
+        this.c = c;
+        this.d = d;
+        this.e = e;
+        this.f = f;
     }
 
     public double getA(){
