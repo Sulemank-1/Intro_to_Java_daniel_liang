@@ -36,15 +36,15 @@ public class Circle {
         radius = (newRadius >= 0) ? newRadius : 0;
     }
 
-    static int getNumberOfObjects(){
+    public static int getNumberOfObjects(){
         return numberOfObjects;
     }
 
-    double getArea(){
+    public double getArea(){
         return radius * radius * Math.PI;
     }
 
-    double getPerimeter(){
+    public double getPerimeter(){
         return 2 * radius * Math.PI;
     }
 
