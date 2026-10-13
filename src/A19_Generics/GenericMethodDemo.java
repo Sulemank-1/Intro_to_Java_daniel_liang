@@ -1,4 +1,4 @@
-package A19_Generics;
+ package A19_Generics;
 
 public class GenericMethodDemo {
     public static void main(String[] args) {
@@ -7,7 +7,6 @@ public class GenericMethodDemo {
 
         GenericMethodDemo.<Integer>print(integers);
         GenericMethodDemo.<String>print(strings);
-
     }
 
     public static <E> void print(E[] list){
